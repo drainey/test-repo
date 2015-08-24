@@ -1,0 +1,62 @@
+/* CSS Document */
+.social_menuBlock {
+	position: relative; clear:both; display:inline;
+}
+.social_img {
+	margin-right:5px; vertical-align:bottom;
+}
+.social_img a:link {
+	text-decoration:none
+}
+.social_menuShare_style { 
+    position:relative; display:block; clear:both; margin-left:21px; text-indent: -21px;
+}
+.social_menu_style {
+    POSITION: absolute; VISIBILITY: hidden; border:3px solid #999999; border-right:3px solid #666666; border-bottom:3px solid #666666; background-color:#ffffff; z-index:10; text-align:left; margin-left:0px; text-indent: 0px;
+}
+.social_content{
+	border:2px solid #999999; border-left:2px solid #666666; border-top:2px solid #666666; width:400px;
+}
+.social_bandedHeader {
+	margin: 0; padding: 1px 10px 1px 10px;
+}
+.social_linksUnit {
+	margin: 0; padding: 0; color: #003366; margin-left: 21px; text-indent: -21px;
+}
+.social_linksUnit div {
+	margin-top:3px;
+}
+.social_contentBlock {
+	margin-top: 15px; padding: 0; width: 100%; overflow: auto; padding-bottom:5px;
+}
+.social_contentIntro {
+	padding:15px 10px 15px 10px;
+}
+.social_column {
+	float:left; margin-left:10px; width:120px;
+}
+.social_bottomColor {
+	margin-top:15px; height:5px; FONT-SIZE: 0px; width:100%;
+}
+.social_screenReading {
+	FONT-SIZE: 0px; OVERFLOW: hidden; WIDTH: 0px; POSITION: absolute; HEIGHT: 0px;
+}
+.social_underline {
+	text-decoration:underline;
+}
+A.social_noline {
+	text-decoration:none;
+}
+A.social_noline:active {
+	text-decoration:none;
+}
+A.social_noline:link {
+	text-decoration:none;
+}
+A.social_noline:visited {
+	text-decoration:none;
+}
+A.social_noline span {
+	text-decoration:underline;
+}
+/* Social Tagging styles V1.1 20070424 */

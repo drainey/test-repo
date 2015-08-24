@@ -1,0 +1,137 @@
+.HPMenu {
+  cursor: hand;
+  cursor: pointer;
+  list-style-type: none;
+  display: inline;
+}
+
+.HPMenu > li,
+.HPMenu > div {
+  /* inline-block + ie7 fallback */
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+  
+}
+
+.HPMenu ul {
+  position: absolute;
+  z-index: 9999;
+  background-color: #ffffff;
+  display: none;
+  list-style-type: none;
+  border: 2px; 
+  border-color: #CCCCCC; 
+  border-style: solid;
+  left: 325px;
+  *left: 285px;
+  *top: 307px;
+}
+
+/* .HPMenu ul:hover{ */
+/*   border: 2px solid #5A5A5A; */
+/* } */
+
+.HPMenu ul li {
+  line-height: 18px !important;
+  padding: 10px;
+}
+
+.HPMenu ul li:last-child{
+  border-bottom: none;
+}
+
+div.hf_carat_up {  
+  background-image: url("/ewfrf-JAVA/Image/hp-ui/system/i/common/s-31px-hpe.png");
+  background-position: -1px -875px;
+  height: 11px;
+  width: 27px;
+  z-index: 10000;
+  position:absolute;
+}
+
+ul.subMenu{
+  position: absolute;
+  padding-left:10px !important;
+  padding-right: 10px !important;
+  overflow: hidden;
+  width: 260px;
+  margin-bottom: 40px\9;
+  border-bottom: 3px solid #0096D6;
+  
+}
+
+ul.subMenu:hover{
+  display: block;
+  border-bottom: 3px solid #0096D6;
+}
+
+ul.subMenu > li {
+  display: block;
+  margin-left:0;
+  margin-right:0;
+  padding: 0;
+  margin-bottom: 15px;
+ }
+
+ul.subMenu > li:hover {
+  background-color: #007DBA;
+}
+
+ul.subMenu > li:hover a{
+  color: #FFFFFF !important;
+}
+
+.subMenu > li a {
+  color: #000000;
+  font-size: 16px !important;
+  border-bottom: none !important;
+  width: 260px;
+}
+
+ul.subMenu > li a:hover {
+  text-decoration:none !important;
+  border-bottom: none !important;
+}
+
+ul.subMenu li:last-child {
+  margin-left:0;
+  margin-bottom: 40px;
+}
+
+ul.subMenu li+li+li+li{
+  margin-bottom: 40px;
+}
+
+/*   .everything[dir=rtl] #troubleshootingSubNav ul.subMenu {
+  right:700px\9 !important;
+}
+
+.everything[dir=rtl] #troubleshootingSubNav div.hf_carat_up {
+  right:770px\9 !important;
+}  */ 
+
+.everything[dir=rtl] #troubleshootingSubNav ul.subMenu {
+  right: 0px;
+  left: 0px;
+
+  *right: auto;
+  *left: auto;  
+}
+
+.everything[dir=rtl] #troubleshootingSubNav div.hf_carat_up {
+ /* right:510px\9 !important;*/
+}
+
+.HPMenu {
+  position: relative;
+  *position: static;
+}
+
+.HPMenu a {
+  *position: static;
+}
+
+ul.subMenu{
+  *position: absolute;
+}

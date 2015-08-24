@@ -1,0 +1,87 @@
+.ac_results_supp {
+  padding:0;
+  border:2px solid #ccc;
+  border-top-width:0;
+  background-color:#fff;
+  overflow:hidden;
+  z-index:21;
+  padding-bottom: 5px;
+  *left: 0px;
+  margin-top: 0px;
+  *margin-top: 30px;
+}
+
+/* Fix for ALM CR-4204 & 4462 */
+.everything[dir=rtl] .ac_results_supp {
+  *left: 0;
+}
+
+/*
+.everything[dir=rtl] #right_rail .ac_results_supp {
+  *left: 19px;
+}*/
+/* End fix for ALM CR-4204 */
+
+.header .ac_results_supp {
+  *margin-top: 8px;
+}
+
+.ac_results_supp ul {
+  list-style-position:outside;
+  list-style:none;
+  padding:0;
+  margin:0;
+}
+
+.ac_results_supp li {
+  position:relative;
+  margin:0;
+  padding:0;
+  cursor:pointer;
+  display:block;
+  overflow:hidden;
+}
+
+#right_rail .ac_results_supp ul a,
+.ac_results_supp ul a {
+  text-decoration:none;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  color:#000;
+  width:100%;
+  display:block;
+  margin:0;
+  padding:3px 10px;
+  height:auto;
+  width:auto;
+  _position:relative;
+}
+
+#right_rail .ac_results_supp a:active,
+.ac_results_supp a:active {
+  text-decoration:none;
+  color:#FFF;
+}
+
+#right_rail .ac_results_supp a span,
+.ac_results_supp a span {
+  color:#000;
+  font-weight: bold;
+}
+
+#right_rail .ac_results_supp a:focus,
+#right_rail .ac_results_supp a:hover,
+#right_rail .ac_results_supp a.ac_focus,
+.ac_results_supp ul a:hover,
+.ac_results_supp a:focus,
+.ac_results_supp a.ac_focus {
+  background-color:#0096D6;
+  color:#FFF;
+}
+
+/* This is to fix IE7 z-index bug described here */
+/* http://www.quirksmode.org/bugreports/archives/2006/01/Explorer_z_index_bug.html */
+/*.inputQuestionsKeywords {
+  z-index: 22;
+}*/

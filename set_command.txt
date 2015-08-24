@@ -1,0 +1,31 @@
+The default administrator login is:
+
+Address: http://localhost:3343/csvn
+Username: admin
+
+C:\Users\Darrell>path
+PATH=C:\Program Files (x86)\csvn\bin\;C:\Program Files (x86)\csvn\Python25\;C:\W
+indows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsP
+owerShell\v1.0\;C:\Program Files\Dell\Dell Wireless WLAN Card;c:\Program Files (
+x86)\Common Files\Roxio Shared\DLLShared\;C:\Program Files (x86)\Git\cmd;C:\Prog
+ram Files\TortoiseSVN\bin;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Ruby22-x
+64\bin
+
+set JAVA_HOME
+echo $JAVA_HOME%
+echo %PATH%
+
+Examples: (String Value mode)
+
+Set the variable _car_park to be 'South' in the users environment:
+
+SetX _car_park South
+
+Set the variable _car_park to be 'North' in the MACHINE environment:
+
+SetX _car_park North /m
+
+Store the value of _car_park in a second environment variable
+SetX _oldcarpark %_car_park%
+
+ 
